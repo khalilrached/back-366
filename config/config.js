@@ -20,10 +20,10 @@ if (error) {
 }
 
 const config = {
-  env: envVars.NODE_ENV,
-  port: envVars.PORT,
-  appName: envVars.APP_NAME,
-  fileSize: envVars.FILE_SIZE_LIMIT_MB,
+  env: 'development',
+  port: 5000,
+  appName: 'nuit-366',
+  fileSize: 20,
 
 };
 
