@@ -13,7 +13,7 @@ import getProducts from './getProducts.js';
 import getSport from './getSport.js';
 
 dotenv.config({ path: '.env' });
-const access = await grantAccess();
+const access =  grantAccess();
 
 const sports = {
   async getProductsPredictions(req, res, next) {
