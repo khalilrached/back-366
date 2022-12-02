@@ -8,7 +8,9 @@ import { handleError } from './src/utils/errorsHandler.js';
 /**
  * Load environment variables from .env file,
  */
-dotenv.config({ path: '.env' });
+dotenv.config({
+  path: '.env'
+});
 
 /**
  * Set app port
@@ -28,7 +30,7 @@ app.use((err, req, res, next) => {
     err,
     req,
     res,
-    next,
+    next
   });
 });
 
@@ -36,5 +38,5 @@ app.use((err, req, res, next) => {
  * Start Express server.
  */
 app.listen(5000, () => {
-  logger.info('server started!')
+  logger.info('server started!');
 });
