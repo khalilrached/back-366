@@ -11,10 +11,17 @@ import path from 'path';
 import url from 'url';
 import getProducts from './getProducts.js';
 import getSport from './getSport.js';
+<<<<<<< HEAD
 dotenv.config({
   path: '.env'
 });
 const access = await grantAccess();
+=======
+
+dotenv.config({ path: '.env' });
+const access =  grantAccess();
+
+>>>>>>> a1a845fd8214ac27c23a98079d511384439a69eb
 const sports = {
   async getProductsPredictions(req, res, next) {
     try {
