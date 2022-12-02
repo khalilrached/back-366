@@ -1,0 +1,4 @@
+[2022-12-02 01:23:44:2344] [32minfo[39m: App is running at http://localhost:3001 in development mode
+[2022-12-02 01:23:44:2344] [32minfo[39m:   Press CTRL-C to stop
+
+[2022-12-02 01:23:47:2347] [32minfo[39m: GET /favicon.ico 404 2.266 ms - 150
